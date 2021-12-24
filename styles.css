@@ -14,7 +14,7 @@ body {
 .card {
   max-width: 800px;
   background: #ffffffad;
-  padding: 1.3rem 2rem;
+  padding: 1.3rem 1.7rem;
   margin: 1rem;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
@@ -26,7 +26,7 @@ body {
 }
 
 .long-text {
-  font-size: 1.9rem;
+  font-size: 1.3rem;
 }
 
 .card__teller {

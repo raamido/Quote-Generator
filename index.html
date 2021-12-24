@@ -26,19 +26,22 @@
     <title>Quote Generator</title>
   </head>
   <body>
-    <div class="card">
+    <div class="card" id="quote">
       <div class="card__text" align="center">
         <i class="fas fa-quote-left fa-3x"></i>
-        <span class="card__paragraph">
-          Nature takes away any faculty that is not used.
-        </span>
+        <span class="card__paragraph" id="quote__text"> </span>
       </div>
-      <h2 class="card__teller">Napoleon Hill</h2>
+      <h2 class="card__teller" id="quote__teller"></h2>
       <div class="card__cta">
-        <button class="button card__button card__button--secondary">
-          <i class="fab fa-twitter fa-lg" title="tweet this quote!"></i>
-        </button>
-        <button class="button card__button card__button--primary">
+        <a id="t-button">
+          <button class="button card__button card__button--secondary">
+            <i class="fab fa-twitter fa-lg" title="tweet this quote!"></i>
+          </button>
+        </a>
+        <button
+          class="button card__button card__button--primary"
+          id="cta-button"
+        >
           New Quote
         </button>
       </div>
