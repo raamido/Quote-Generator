@@ -60,3 +60,13 @@ body {
 .card__button--secondary:hover {
   color: #1da1f2;
 }
+
+[disabled="true"] {
+  background: hsl(0, 0%, 90%);
+  color: hsl(0, 0%, 38%);
+  cursor: not-allowed;
+}
+
+[disabled="true"]:hover {
+  background: hsl(0, 0%, 90%);
+}
