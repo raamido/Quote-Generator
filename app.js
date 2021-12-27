@@ -4,7 +4,7 @@ const quoteTeller = document.getElementById("quote__teller");
 const TwitterShareButton = document.getElementById("t-button");
 const newQuoteButton = document.getElementById("cta-button");
 const spinner = document.getElementById("spinner");
-const API_URL = "http://api.quotable.io/random";
+const API_URL = "https://api.quotable.io/random";
 
 const getQuote = async () => {
   loading();
